@@ -1,0 +1,141 @@
+{
+    "id": "983236bc-b2c6-4878-abca-593eb2762b1c",
+    "modelName": "GMObject",
+    "mvc": "1.0",
+    "name": "flapper",
+    "eventList": [
+        {
+            "id": "493b1b21-996e-41f5-ba32-4b03c58ad8ee",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "983236bc-b2c6-4878-abca-593eb2762b1c"
+        },
+        {
+            "id": "b8e06832-75f5-4649-b365-997091f291e7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 38,
+            "eventtype": 9,
+            "m_owner": "983236bc-b2c6-4878-abca-593eb2762b1c"
+        },
+        {
+            "id": "a6845df2-eb63-4675-81a7-650ea578f4c6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 32,
+            "eventtype": 9,
+            "m_owner": "983236bc-b2c6-4878-abca-593eb2762b1c"
+        },
+        {
+            "id": "c0cd4054-5452-4bdd-aa67-dd37f0c269d3",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "5a38437d-ac37-4b5f-8a13-06cde7dbc216",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "983236bc-b2c6-4878-abca-593eb2762b1c"
+        },
+        {
+            "id": "f2c1643b-b26b-4d3d-b2bf-2051a3eb06bd",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "983236bc-b2c6-4878-abca-593eb2762b1c"
+        },
+        {
+            "id": "61f59611-e661-4714-adfe-14e4b0a0967e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "983236bc-b2c6-4878-abca-593eb2762b1c"
+        },
+        {
+            "id": "04729f55-3cb2-4804-89ec-f51bf058ec76",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "632d7475-6261-4634-aa52-c35bc7080e69",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "983236bc-b2c6-4878-abca-593eb2762b1c"
+        }
+    ],
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "overriddenProperties": null,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": false,
+    "physicsAngularDamping": 0.1,
+    "physicsDensity": 0.5,
+    "physicsFriction": 0.2,
+    "physicsGroup": 0,
+    "physicsKinematic": false,
+    "physicsLinearDamping": 0.1,
+    "physicsObject": false,
+    "physicsRestitution": 0.1,
+    "physicsSensor": false,
+    "physicsShape": 1,
+    "physicsShapePoints": null,
+    "physicsStartAwake": true,
+    "properties": [
+        {
+            "id": "1f87c793-c824-4a6a-b7eb-c042bbacde65",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.5",
+            "varName": "gravity",
+            "varType": 0
+        },
+        {
+            "id": "f6a3f43a-84fe-4f3b-9393-bc25734c38cf",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "5",
+            "varName": "jumppower",
+            "varType": 0
+        },
+        {
+            "id": "03c86ca5-b85e-4e3e-a3a2-5ad561722374",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "invincibility",
+            "varType": 3
+        }
+    ],
+    "solid": false,
+    "spriteId": "575a9f38-575c-4df8-abec-87349e96df08",
+    "visible": true
+}
